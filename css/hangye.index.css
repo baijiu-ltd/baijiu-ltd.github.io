@@ -1,0 +1,992 @@
+
+.main{
+    width: 100%;
+}
+/* ------header.css start--------- */
+
+.header{
+    width: 100%;
+}
+.headBox{
+    width: 94%;
+    height: 100%;
+    line-height: 3.125rem;
+    margin: 0 auto;
+    padding: 0 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.headBox a{
+    height: 3.125rem;
+    line-height: 3.125rem;
+    display: flex;
+    align-items: center;
+}
+.head-left{
+    /* width: 160px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.head-left .iconfont{
+    font-size: 1.25rem;
+    color: #404040;
+    height: 45px;
+}
+.head-left svg{
+    font-size: 3.75rem;
+    width: 3.75rem;
+    height: 3.125rem;
+}
+.head-left>span:nth-child(3){
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background: #ACACAC;
+}
+.head-left>span:last-child{
+    padding: 0 4px;
+    height: 1.375rem;
+    line-height: 1.375rem;
+    font-size: 0.8125rem;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 5px;
+    background: linear-gradient(36.41deg, #FF4040 50%, #FF5454 94.43%);
+}
+.head-right{
+    width: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.head-right svg{
+    font-size: 2.1875rem;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.0509804);
+    border-radius: 50%;
+}
+.head span{
+    font-size:1.125rem;
+    /* font-family:PingFang SC ; */
+    max-width: 15.625rem;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: bold;
+    color:rgba(68,68,68,1);
+    opacity:1;
+}
+.headBar{
+    width: 100%;
+    height: 3.75rem;
+    margin: 0 auto;
+    padding-top: 0.625rem;
+}
+.headList{
+    width: 90%;
+    height: 3.125rem;
+    margin: auto auto;
+    display: flex;
+    justify-content: space-between;
+}
+.headList a{
+    display: flex;
+    flex-direction: column;
+}
+.headList span{
+    text-align: center;
+}
+.headList li>a>span:nth-child(1){
+    font-size: 1.0625rem;
+    font-weight: bold;
+    margin-bottom: 4px;
+    color:rgba(68,68,68,1);
+    opacity:1;
+}
+.headList li>a>span:nth-child(2){
+    font-size:0.6875rem;
+    font-family:PingFangSC-Regular;
+    color:rgba(184,184,184,1);
+    opacity:1;
+}
+.headBar>.headList .listChose span{
+    color: #F32C2C;
+}
+.choice{
+    width: 100%;
+    height: 3.125rem;
+    line-height: 3.125rem;
+    align-items: center;
+    background: #F5F5F5;
+}
+.searchChose{
+    width: 94%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.searchChose>div{
+    position: relative;
+}
+.searchChose span{
+    position: absolute;
+    top: 1px;
+    right: 0.75rem;
+    font-size: 0.75rem;
+    color: #a0a0a0;
+}
+.searchChose select{
+    width: 6.875rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: left;
+    /* height: 1.875rem; */
+    border-radius: 50px;
+    background: #ffffff;
+    box-shadow: 0px 4px 7px rgba(102, 102, 102, 0.05);
+    outline: none;
+    border: none;
+    font-size: 0.75rem;
+    line-height: 2.0625rem;
+    color: #999999;
+    padding: 0 0.75rem;
+    padding-right: 1.625rem;
+    -webkit-appearance: none; 
+}
+.searchChose .choiceChosing{
+    color: #F32C2C;
+}
+.searchChose .iconChosing{
+    color: #F32C2C;
+}
+/* ------header.css end--------- */
+
+/* --------main.css start------- */
+.main{
+    width: 100%;
+}
+/* ------top.css start------- */
+.top{
+    width: 100%;
+    height: 15rem;
+    background-image: url(../imgs/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+}
+.top>:first-child{
+    width: 94%;
+    margin: 0 auto;
+    margin-bottom: 3.125rem;
+}
+.top>:last-child{
+    width: 100%;
+    position: absolute;
+    bottom: 1.25rem;
+}
+.topTitle{
+    font-size: 1.3125rem;
+    color: #F8F2BB;
+}
+.top p{
+    margin: 10px auto;
+    color: #F8F2BB;
+    font-size: 0.75rem;
+}
+.top span{
+    display: block;
+    width: 6.5625rem;
+    height: 1.4375rem;
+    line-height: 1.4375rem;
+    text-align: center;
+    background: #F0BC89;
+    padding: 0;
+    border-radius: 0.8125rem;
+    font-size: 0.75rem;
+    color: #FFFFFF;
+}
+.top span:focus,.top span:active,.top span:visited,.top span:hover{
+    color: #FFFFFF;
+    box-shadow: none;
+    outline: none;
+}
+.top-tabBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 94%;
+    height: 2.1875rem;
+    margin: 0 auto;
+    background:  rgba(255, 255, 255,0.2);
+    border-radius: 3.125rem;
+    overflow: hidden;
+}
+.top-tabBar li{
+    width: 5.3125rem;
+    text-align: center;
+    height: 2.1875rem;
+    line-height: 2.1875rem;
+    border-radius: 3.125rem;
+    color: rgba(255, 255, 255,1);
+    font-size: 1rem;
+    
+}
+.top-tabBar .barChosing{
+    background:  rgba(255, 255, 255,1);
+    color: #F32C2C;
+}
+
+/* ------top.css end------- */
+
+/* ----list-content.css.start---- */
+.list-content1,.list-content2{
+    width: 100%;
+}
+.list-content1 .bd,.list-content2 .bd{
+    width: 94%;
+    margin: 0 auto;
+}
+.bd li{
+    width: 100%;
+    height: 6.875rem;
+    line-height: 8.375rem;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(238,238,238,1);
+}
+.bd>li>svg{
+    font-size: 1.75rem;
+    margin-right: 0.3125rem;
+}
+.bdImg img{
+    width: 6.25rem;
+    height: 3.84375rem;
+    border-radius: 0.3125rem;
+    border: 1px solid #F0F0F0;
+}
+.bdMsg{
+    width: 12.5625rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.625rem;
+}
+.companyNam,.company{
+    width: 12.5625rem;
+    display: block;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+}
+.companyNam{
+    font-size: 1.125rem;
+    font-weight: bold;
+    line-height: 1.65625rem;
+    color:rgba(64,64,64,1);
+    opacity:1;
+}
+.company{
+    font-size: 0.75rem;
+    font-family:PingFangSC-Regular;
+    line-height: 1.03125rem;
+    color:rgba(205,205,205,1);
+    opacity:1;
+    margin-top: 5px;
+}
+.sLogo{
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+}
+.sLogo>div{
+    display: flex;
+    margin-right: 10px;
+}
+.sLogo>div>a{
+    display: flex;
+    align-items: center;
+}
+.sLogo span{
+    display: block;
+    height: 0.875rem;
+    font-size: 0.625rem;
+    font-family:PingFangSC-Regular;
+    line-height: 0.875rem;
+    color:rgba(51,51,51,1);
+    opacity:1;
+}
+.sLogo .noChose{
+    color: #999999;
+}
+.sLogo svg{
+    font-size: 1.125rem;
+    margin-right: 2px;
+}
+.xiangqing>a>svg{
+    font-size: 3.125rem;
+}
+.xiangqing>a{
+    display: block;
+    height: 1.875rem;
+}
+.xiangqing{
+    height: 1.875rem;
+    width: 3.125rem;
+    position: relative;
+}
+.xiangqing svg{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 1.875rem;
+}
+.sLogo_div svg{
+    margin-right:2px;
+}
+.nums{
+    width: 1.75rem;
+    height: 1.75rem;
+    font-size: 0.75rem;
+    line-height: 1.75rem;
+    margin-right: 0.3125rem;
+    text-align: center;
+    border-radius: 50%;
+    color:#E09F4D;
+    background: #FFF0C2;
+}
+.list-content2 .sLogo_div{
+    height: 1.875rem;
+    display: flex;
+    align-items: center;
+    font-size: 0.75rem;
+    color: #404040;
+}
+.list-content2 .sLogo>div{
+    margin-right: 0;
+}
+.list-content2 .sLogo_div>span{
+    color: #F32C2C;
+}
+.list-content2 .sLogo{
+    justify-content: space-between;
+}
+/* ----list-content.css.end---- */
+
+/* -----ad.css start------ */
+.ad{
+    width: 100%;
+    margin-top: 1.875rem;
+    margin-bottom: 1.875rem;
+}
+.ad>div{
+    width: 94%;
+    height: 5.625rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background:linear-gradient(131deg,rgba(71,77,248,1) 0%,rgba(71,145,253,1) 100%);
+    box-shadow:0px 5px 7.5px rgba(34,78,243,0.35);
+    opacity:1;
+    border-radius:0.46875rem;
+}
+.ad>div>span{
+    width: 17.03125rem;
+    height: 1.71875rem;
+    font-size: 0.9375rem;
+    text-align: center;
+    display: block;
+    margin: 0.625rem auto;
+    font-family:PingFangSC-Bold;
+    line-height: 1.71875rem;
+    color:rgba(255,255,255,1);
+    opacity:1;
+}
+.get{
+    width: 5.625rem;
+    height: 1.40625rem;
+    line-height: 1.40625rem;
+    background:rgba(255,255,255,0.2);
+    opacity:1;
+    border-radius:0.25rem;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.get span{
+    display: block;
+    line-height: 1.40625rem;
+    text-align: center;
+    font-size: 0.75rem;
+    font-family:PingFangSC-Regular;
+    color:rgba(255,255,255,1);
+    opacity:1;
+}
+.get .iconfont{
+    font-size: 0.625rem;
+}
+/* -----ad.css end------ */
+
+/* ----good.css start----- */
+.good{
+    width: 100%;
+    margin-top: 1.25rem;
+}
+.goodTitle{
+    width: 100%;
+    height: 3.125rem;
+}
+.goodTitle>h3{
+    width: 7.875rem;
+    height: 1.84375rem;
+    font-size: 1.3125rem;
+    margin: 0 auto;
+    font-family:PingFangSC-Bold;
+    line-height: 1.3125rem;
+    color:rgba(51,51,51,1);
+    opacity:1;
+}
+.goodTitle>span{
+    display: block;
+    width: 1.25rem;
+    height: 0.25rem;
+    margin: 0 auto;
+    background:rgba(236,25,37,1);
+    opacity:1;
+    margin: 0.625rem auto;
+}
+.goodImg{
+    width: 94%;
+    margin: 0.625rem auto;
+    display: flex;
+    flex-basis: 33%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.goodImg li{
+    margin-bottom: 1.25rem;
+}
+.goodImg>li>a{
+    display: flex;
+    flex-direction: column;
+}
+.goodImg img{
+    width: 6.5625rem;
+    height: 4.0625rem;
+    border:1px solid rgba(245,245,245,1);
+    box-shadow:0px 5px 7.5px rgba(0,0,0,0.05);
+    opacity:1;
+    border-radius:0.3125rem;
+    border: 1px solid #F0F0F0;
+}
+.goodImg span{
+    width: 6.5625rem;
+    height: 1.03125rem;
+    font-size: 0.75rem;
+    font-family:PingFangSC-Bold;
+    line-height: 1.03125rem;
+    color:rgba(68,68,68,1);
+    opacity:1;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-top: 0.625rem;
+}
+/* ----good.css end----- */
+
+/* ----ad1.css start------ */
+.ad1{
+    width: 100%;
+    margin: 1.25rem 0;
+}
+.ad1 img{
+    width: 94%;
+    /*height: 5.625rem;*/
+    margin: 0 auto;
+}
+/* ----ad1.css end------ */
+
+/* -----zhaoshang.css start----- */
+.zhaoshang{
+    width: 100%;
+}
+.brand{
+    width: 94%;
+    margin: 0.625rem auto;
+}
+.brand>li{
+    height: 6.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #EEEEEE;
+    opacity: 1;
+}
+.brand>li:last-child{
+    border-bottom: 1px solid #EEEEEE;
+}
+.brand img{
+    width: 6.25rem;
+    height: 3.84375rem;
+    border: 1px solid #F0F0F0;
+}
+.brandMsg{
+    width: 14.375rem;
+    display: flex;
+    flex-direction: column;
+}
+.brandMsg>a{
+    display: flex;
+    flex-direction: column;
+}
+.brandMsg>a>span{
+    width: 13.125rem;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.brandMsg>a>span:nth-child(1){
+    height: 1.5rem;
+    font-size: 1.0625rem;
+    font-weight: bold;
+    line-height:1.5rem;
+    opacity:1;
+    color:rgba(51,51,51,1);
+    margin-bottom: 5px;
+}
+.brandMsg>a>span:nth-child(2){
+    height:0.875rem;
+    font-size:0.625rem;
+    line-height:0.875rem;
+    color:rgba(205,205,205,1);
+    opacity:1;
+}
+.focus{
+    width: 13.75rem;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+.gzNum{
+    height: 1.03125rem;
+    line-height: 1.03125rem;
+    opacity:1;
+}
+.gzNum>span:nth-child(1){
+    font-size: 0.625rem;
+    font-family: PingFangSC-Regular;
+    color:#878787;
+}
+.gzNum>span:nth-child(2){
+    font-size: 0.75rem;
+    font-family: PingFangSC-Bold;
+    color:#000000;
+}
+.zsxq{
+    width: 5.625rem;
+    height: 1.5625rem;
+    line-height: 1.5625rem;
+    background:rgba(255,255,255,1);
+    box-shadow:0px 2px 7px rgba(0,0,0,0.1);
+    opacity:1;
+    border-radius:3.125rem;
+    text-align: center;
+}
+.zsxq span{
+    text-align: center;
+    font-size: 0.75rem;
+    color: #ec1925;
+    font-weight: bold;
+}
+
+/* -----zhaoshang.css end----- */
+
+/* -----news.css start----- */
+.news{
+    width: 100%;
+    margin-top: 1.25rem;
+}
+.newBar{
+    width: 94%;
+    height: 2.1875rem;
+    line-height: 2.1875rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    background:rgba(255,255,255,1);
+    border:1px solid rgba(236,25,37,1);
+    opacity:1;
+    border-radius:0.4375rem;
+    margin-bottom: 1.25rem;
+    overflow: hidden;
+}
+.newBar li{
+    /* width: 31.3%; */
+    padding: 0 1.25rem;
+    text-align: center;
+    color: #EC1925;
+}
+/* .newBar li:nth-child(1),.newBar li:nth-child(3){
+    border-radius:5px;
+} */
+
+.newBar .nbChosing{
+    background:rgba(236,25,37,1);
+    color: #FFFFFF;
+    /* border-radius:5px; */
+}
+
+/* ---details.css start---- */
+.details{
+    width: 94%;
+    margin: 0 auto;
+}
+.details li{
+    height: 6.25rem;
+    margin-bottom: 5px;
+}
+.newsTime{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+.newsTime>div{
+    display: flex;
+    align-items: center;
+}
+.newsTime>span{
+    display: block;
+    text-align: center;
+    width: 3.4375rem;
+    /* height: 1.3125rem; */
+    line-height: 1.3125rem;
+    font-size:0.6875rem;
+    color: #CCCCCC;
+    background:rgba(255,255,255,1);
+    border:1px solid #CCCCCC;
+    opacity:1;
+    border-radius:0.3125rem;
+    margin-right: 0.625rem;
+}
+.newsTime .iconfont{
+    font-size: 0.875rem;
+    color: #CCCCCC;
+}
+.getTime{
+    width: 4.5rem;
+    height: 1.3125rem;
+    display: block;
+    font-size: 0.6875rem;
+    font-family:PingFangSC-Regular;
+    line-height: 1.3125rem;
+    color:rgba(204,204,204,1);
+    opacity:1;
+    margin-left: 0.3125rem;
+}
+.neirong{
+    margin-bottom: 0.625rem;
+}
+
+/* 无图片： */
+
+.dnews h3{
+    width:21.6875rem;
+    height: 1.5625rem;
+    font-size: 1.0625rem;
+    font-family:PingFangSC-Bold;
+    line-height: 1.5625rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color:rgba(68,68,68,1);
+    opacity:1;
+}
+.dnews .neirong{
+    width:21.6875rem;
+    height: 1.03125rem;
+    font-size: 0.75rem;
+    font-family:PingFangSC-Regular;
+    height: 1.03125rem;
+    display: block;
+    color:rgba(153,153,153,1);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    opacity:1;
+}
+/* 有图片 */
+.dimg>a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dimg .dimgLeft{
+    width: 13.15625rem;
+    display: flex;
+    flex-direction: column;
+}
+.dimg h3{
+    width: 13.15625rem;
+    height: 1.59375rem;
+    font-size: 1.0625rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-family:PingFangSC-Bold;
+    line-height:1.59375rem;
+    color:rgba(68,68,68,1);
+    opacity:1;
+    margin-top: 0.625rem;
+}
+.dimgLeft .neirong{
+    width: 12.96875rem;
+    height: 1.03125rem;
+    font-size: 0.75rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-family:PingFangSC-Regular;
+    line-height: 1.03125rem;
+    color:rgba(153,153,153,1);
+    opacity:1;
+}
+.dimg img{
+    width: 7.8125rem;
+    height: 5rem;
+    border: 1px solid #F0F0F0;
+}
+/* -----news.css end----- */
+
+.more{
+    width: 100%;
+    margin: 1.25rem 0;
+}
+.more span{
+    width: 7.65625rem;
+    height: 2.03125rem;
+    line-height: 2.03125rem;
+    font-size: 0.75rem;
+    font-family:PingFangSC-Regular;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    color: #444444;
+    background:rgba(255,255,255,1);
+    border:1px solid rgba(238,238,238,1);
+    opacity:1;
+    border-radius:0.25rem;
+}
+/* --------main.css end------- */
+
+/* ---------申请上榜弹窗.css--------- */
+.btn:active:focus,.btn:focus{
+    outline: none !important;
+}
+.modal-content{
+    width: 94%;
+    margin: 0 auto;
+    margin-top: 9.375rem;
+}
+.modal-header{
+    background: #FF3838;
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.modal-title{
+    height: 2.625rem;
+    font-size: 1.875rem;
+    line-height: 2.625rem;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.modal-header>p{
+    height: 1.0625rem;
+    font-size: 0.75rem;
+    line-height: 1.0625rem;
+    color: #FFF2D0;
+    margin-top: 0.625rem;
+}
+.modal-header{
+    border-bottom: none;
+    position: relative;
+}
+
+.modal-header img{
+    height: 5rem;
+    position: absolute;
+    right: 0.625rem;
+    top: 0.625rem;
+    opacity: 0.6;
+}
+.tabContent{
+    width: 100%;
+}
+.modal-header .close{
+    /* font-size: 1.875rem; */
+    position: relative;
+    color: #FFFFFF;
+    z-index: 99;
+}
+.modal-header .close>span{
+    font-size: 1.25rem;
+    color: #FFFFFF;
+}
+.modal-footer{
+    text-align: center;
+}
+.modal-content .btn-primary:hover, .btn-primary:active:hover,.btn-primary:active:focus{
+    background: #FF3838;
+    border: none;
+}
+
+.modal-footer .btn-primary{
+    width: 100%;
+    height: 2.5rem;
+    border-radius: 5px;
+    background: #FF3838;
+    border: none;
+    outline: none;
+}
+.top .btn-primary:active:focus{
+    background: none;
+}
+.btn-primary:hover,.btn-primary:active:hover{
+    /* background: none; */
+    /* border: none; */
+}
+.modal-body input{
+    -webkit-appearance: none;
+}
+.tabContent input{
+    width: 100%;
+    height: 2.5rem;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+    opacity: 1;
+    border-radius: 5px;
+    padding: 0 1.25rem 0 3.75rem;
+    outline: none;
+    -webkit-appearance: none;
+}
+.tabContent_name>span::after{
+    position: absolute;
+    top: 3px;
+    height: 1.25rem;
+    content: '';
+    width: 0;
+    border-left: solid #666 1px;
+    right: 0;
+}
+.tabContent_phone>span::after{
+    position: absolute;
+    top: 3px;
+    height: 1.25rem;
+    content: '';
+    width: 0;
+    border-left: solid #666 1px;
+    right: 0;
+}
+.tabContent>div{
+    width: 100%;
+    position: relative;
+    line-height: 2.5rem;
+    margin-bottom: 0.9375rem;
+}
+.tabContent>div>span{
+    position: absolute;
+    display: block;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    /* border-right: 1px solid #666666; */
+    font-size: 0.9375rem;
+    font-family: PingFangSC-Regular;
+    color: #444444;
+    opacity: 1;
+    padding: 0 8px 0 1rem;
+    top: 8px;
+}
+.tabContent>div>svg{
+    position: absolute;
+    right: 10px;
+    top: 0.875rem;
+    color: #CCCCCC;
+}
+.tabContent>div>p{
+    height: 1.25rem;
+    font-size: 0.875rem;
+    font-family: PingFangSC-Bold;
+    line-height: 1.25rem;
+    color: #F32C2C;
+    opacity: 1;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.tabContent .tabContent_msg{
+    margin-top: 0;
+}
+.tabContent_msg>span::after{
+    position: absolute;
+    top: 3px;
+    height: 1.25rem;
+    content: '';
+    width: 0;
+    border-left: solid #666 1px;
+    right: 0;
+}
+.clause{
+    width: 94%;
+    /* margin: 0 auto; */
+    display: flex;
+    align-items: center;
+    height: 1.125rem;
+    line-height: 1.125rem;
+    opacity: 1;
+    font-size: 0.75rem;
+    color: #999999;
+}
+.clause>input{
+    margin-right: 0.3125rem;
+    display: none;
+}
+
+#myCheck + label{
+    border: 1px solid #ccc;
+    width: 0.75rem;
+    margin-right: 0.3125rem;
+    height: 0.75rem;
+    position: relative;
+    margin-bottom: 0;
+}
+#myCheck:checked + label{
+    background-color: #fff;
+    border: 1px solid red;
+}
+#myCheck:checked + label:after{
+    content: "\2714";
+    width: 0.625rem;
+    height: 0.625rem;
+    position: absolute;
+    top: -5px;
+    color: red;
+    left: 0px;
+}
+.clause>a{
+    color: #ec1925;
+}
